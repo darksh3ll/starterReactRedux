@@ -6,6 +6,8 @@ import NotFound from "../screens/NotFound";
 
 class PublicRouter extends Component {
     render() {
+
+
         return (
               <Switch>
                 <Route exact path="/" component={Home}/>
