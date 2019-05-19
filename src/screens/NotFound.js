@@ -6,8 +6,9 @@ import {Link} from 'react-router-dom'
 const NotFound = () => {
   return (
     <div className="container">
-      <h1 className="title">404</h1>
-      <Link to="/"><p>Retour a l'acceuil</p></Link>
+      <h1>404</h1>
+      <p>Oops! Something is wrong.</p>
+      <Link to="/"><p>o back in initial page, is better</p></Link>
     </div>
   );
 };
