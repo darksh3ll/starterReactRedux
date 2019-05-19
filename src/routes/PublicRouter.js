@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Home from "../component/Home/Home";
+import Home from "../screens/Home";
+import NotFound from "../screens/NotFound";
 class PublicRouter extends Component {
     render() {
         return (
               <Switch>
                 <Route exact path="/" component={Home}/>
-            </Switch>
+                <Route path="*"component={NotFound}/>
+              </Switch>
         );
     }
 }
