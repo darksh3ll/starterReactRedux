@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PublicRouter from "../routes/PublicRouter";
-class App extends Component {
 
 
-  render() {
-
-    return (
-      <div>
-          <PublicRouter/>
-      </div>
-    );
-  }
-}
+const  App = () => {
+  return (
+    <div>
+      <PublicRouter/>
+    </div>
+  );
+};
 
 export default App;
