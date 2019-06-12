@@ -1,16 +1,12 @@
-import React, {Component} from 'react';
-import { Button,Progress } from 'antd';
+import React from 'react';
 
-class Home extends Component {
+const  Home = () => {
+    return (
+      <div>
+        <h1>hello...</h1>
+      </div>
+    );
+  };
 
+  export default Home;
 
-    render() {
-        return (
-            <div>
-              home
-            </div>
-        );
-    }
-}
-
-export default Home;
